@@ -12,6 +12,7 @@ A Python implementation and benchmark comparison of 4 classical SAT solving algo
 | CDCL | `cdcl.py` | Conflict-Driven Clause Learning: DPLL + conflict analysis + clause learning |
 
 ## Structure
+```
 ├── parser.py          # DIMACS CNF file parser
 ├── resolution.py      # Resolution solver
 ├── dp.py              # DP solver
@@ -19,8 +20,9 @@ A Python implementation and benchmark comparison of 4 classical SAT solving algo
 ├── cdcl.py            # CDCL solver
 ├── run_all.py         # Benchmark runner (outputs results.txt)
 └── benchmarks/
-  ├── uf20-91/       # SAT instances (20 variables, 91 clauses)
-  └── uuf50-218/     # UNSAT instances (50 variables, 218 clauses)
+    ├── uf20-91/       # SAT instances (20 variables, 91 clauses)
+    └── uuf50-218/     # UNSAT instances (50 variables, 218 clauses)
+```
 
 ## Running
 
